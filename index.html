@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eryn Monestero Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/public/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="">ERYN MONESTERO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link about-link" href="#about">ABOUT<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link contact-link" href="#contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vTrXEOV6zCd6cmvaGa1Z87_akYv43uJJScvcdM5h-U3dWd-70341oZf0fFHNDk3JjSxiumgMSs0oNJ2/pub" target="_blank">RESUME</a>
+                </li>
+            </ul>
+            <span class="navbar-text"></span>
+        </div>
+    </nav>
+
+    <!-- about -->
+    <div class="flip-box">
+        <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <h1>ABOUT</h1>
+                <div class="about-grid">
+                    <div class="about-box-container">
+                    </div>
+                    <img class="about-img" src="/public/images/portfolio_image.jpg" alt="Bio Image"
+                        title="Eryn MOnestero" width="350px">
+                    <article class="about-text">Full Stack Developer with a Bachelor of Science in Computer
+                        Information Systems and further refined my skills at Southern Methodist University’s Full Stack
+                        Bootcamp. Skilled in building full stack projects from the ground up.</article>
+                    <footer class="foot">
+                        <article class="about-bottom-text"><span class="orange">S</span>olving problems one function at
+                            a time</article>
+
+                        <div class="contact-icon">
+                            <ul>
+                                <li><a href="https://github.com/erynjohn" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/erynmonestero" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="mailto:erynmonestero@gmail.com">Email</a></li>
+                                <li><a href="tel:+1-469-571-3320">+1-469-571-3320</a></li>
+                            </ul>
+                        </div>
+                    </footer>
+                      <!-- skills -->
+                    <ul class="dev-tools-front">
+                        <li class="tool-title">Front End Tools</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>UX/UI</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Version Control</li>
+                    </ul>
+                    <ul class="dev-tools-back">
+                        <li class="tool-title">Back End Tools</li>
+                        <li>Ajax</li>
+                        <li>Express</li>
+                        <li>Node.js</li>
+                        <li>Firebase</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="flip-box-back">
+                <h1>PROJECTS</h1>
+                  <!-- projects -->
+                <div class="project-container">
+                    <div class="card bg-dark text-white" style="width: 30rem;">
+                        <img class="card-img" src="/public/images/projects/portfolio.JPG" alt="Card image">
+                        <div class="card-img-overlay">
+                             <div class="project-link-container">
+                            <h5 class="card-title"">Portfolio</h5>
+                            </div>
+    <p class=" card-text">This is the portfolio project that you are viewing. I like to highlight this project because it was created with the idea of a SPA in mind using node as the backend. This app uses a color scheme that doesn't distract from the portfolio. It Is a fully responsive clean layout.</p>
+                                <p class="card-text">Tools Used: JavaScript, Node, express, HTML5, CSS3, and Hosted on Heroku</p>
+                                <p class="link-to-project"><a href="#">PROJECT</a></p>
+                                <p class="link-to-project"><a href="https://github.com/erynjohn/erynjohn.github.io">CODE</a></p>
+                        </div>
+                    </div>
+                     <div class="card-space"></div>
+                    <div class="card bg-dark text-white" style="width: 30rem;">
+                        <img class="card-img" src="/public/images/projects/train-times.JPG" alt="Card image">
+                        <div class="card-img-overlay">
+                             <div class="project-link-container">
+                            <h5 class="card-title"">Train Schedule 2.0</h5>
+                            </div>
+    <p class=" card-text">This project is a scheduling system that takes the train name, destination, and frequency. It then populates a dynamically created table with the updated train name, destination, and time remaining until the next train arrives.  </p>
+                                <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Moment.js</p>
+                                <p class="link-to-project"><a href="https://erynjohn.github.io/train-times">PROJECT</a></p>
+                                <p class="link-to-project"><a href="https://github.com/erynjohn/train-times">CODE</a></p>
+                        </div>
+                    </div>
+                    <div class="card-space"></div>
+                    <div class="card bg-dark text-white" style="width: 30rem;">
+                        <img class="card-img" src="/public/images/projects/destinair.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                             <div class="project-link-container">
+                            <h5 class="card-title"">Destin-Air</h5>
+                            </div>
+    <p class=" card-text">This project is a collaborative effort working as part of a team. My portion of the project is the main page that displays dynamically created pollution index cards along with the current weather for the target city and collaborated with team members to implement the login logic allowing for improved data of current site usage. Overall this app is designed for people with respiratory problems that would like to travel.</p>
+                                    <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Firebase, and Ajax</p>
+                                <p class="link-to-project"><a href="https://erynjohn.github.io/Destn-Air">PROJECT</a></p>
+                                <p class="link-to-project"><a href="https://github.com/erynjohn/Destn-Air">CODE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-box-back-X">
+                <h1>CONTACT</h1>
+                  <!-- contact -->
+                <div class="contact-container">
+                    <form method="POST" action="send">
+                        <div class="form-group">
+                            <label for="name">NAME</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name"
+                                placeholder="JOHN SMITH" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">EMAIL ADDRESS</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="johnsmith@gmail.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">COMPANY</label>
+                            <input type="text" class="form-control" id="company" placeholder="XYZ COMPANY"
+                                name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1" m>MESSAGE</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="ENTER MESSAGE HERE..."
+                                name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-warning btn-block btn-dark">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/public/js/main.js"></script>
+</body>
+</html>
