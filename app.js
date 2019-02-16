@@ -32,7 +32,7 @@ app.post('/send', (req, res) => {
   // using SendGrid's v3 Node.js Library
   // https://github.com/sendgrid/sendgrid-nodejs
   const sgMail = require('@sendgrid/mail');
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const msg = {
     to: 'johnmary1010@gmail.com',
