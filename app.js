@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const expresshbs = require('express-handlebars');
 const path = require('path');
+require('process.env.SENDGRID_API_KEY');
 
 
 const app = express();
