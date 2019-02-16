@@ -1,3 +1,4 @@
+var PORT = process.env.PORT || 5000;
 const express = require('express');
 const bodyParser = require('body-parser');
 const expresshbs = require('express-handlebars');
@@ -57,5 +58,5 @@ app.post('/send', (req, res) => {
 
 
 
-app.listen(3000, () => console.log("server running"));
+app.listen(PORT, () => console.log("server running"));
 
