@@ -1,5 +1,5 @@
 # Github Portfolio 
-## The project is deployed to Heroku.
+## The project is deployed to Heroku. @ https://eryn-monestero-portfolio.herokuapp.com/
 ### Tools used:
 * JavaScript
 * Node
