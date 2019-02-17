@@ -28,6 +28,11 @@ app.get('/message_sent', (req, res) => {
   res.render('messageSent');
 });
 
+app.get('/Resume', (req, res) => {
+  res.render('resume');
+});
+
+
 app.post('/send', (req, res) => {
   // using SendGrid's v3 Node.js Library
   // https://github.com/sendgrid/sendgrid-nodejs
@@ -56,7 +61,6 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     console.error(error);
   });
 });
-
 
 
 app.listen(PORT, () => console.log("server running"));
