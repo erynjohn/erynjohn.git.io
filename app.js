@@ -28,7 +28,7 @@ app.get('/message_sent', (req, res) => {
   res.render('messageSent');
 });
 
-app.get('/Resume', (req, res) => {
+app.get('/eryn_monestero_resume', (req, res) => {
   res.render('resume');
 });
 
