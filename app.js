@@ -54,7 +54,6 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
     console.error(error);
   });
 });
- console.log(process.env.email);
 
 app.listen(PORT, () => console.log("server started"));
 
