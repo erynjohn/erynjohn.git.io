@@ -1,19 +1,19 @@
-var PORT = process.env.PORT || 3000;
 const express = require('express');
 const bodyParser = require('body-parser');
 const expresshbs = require('express-handlebars');
 const path = require('path');
 
+
 const app = express();
 
-//vew engine setup
-app.engine('handlebars', expresshbs());
+app.engine('handlebars', expresshbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
-//static folder
+
 app.use('/public', express.static(path.join(__dirname, 'public')));
-//body parser middleware
-app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
 
 app.get('/', (req, res) => {
   res.render('index');
@@ -22,18 +22,12 @@ app.get('/message_sent', (req, res) => {
   res.render('messageSent');
 });
 
-app.get('/eryn_monestero_resume', (req, res) => {
-  res.render('resume');
-});
-
 app.post('/send', (req, res) => {
-  // using SendGrid's v3 Node.js Library
-  // https://github.com/sendgrid/sendgrid-nodejs
   const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const msg = {
-    to: process.env.email,
+    to: 'johnmary1010@gmail.com',
     from: 'no_replay@erynmonestero.com',
     subject: 'It sent',
     text: 'and easy to do anywhere, even with Node.js',
@@ -55,5 +49,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   });
 });
 
-app.listen(PORT, () => console.log("server started"));
+
+
+app.listen(3000, () =>  console.log("server running"));
 
