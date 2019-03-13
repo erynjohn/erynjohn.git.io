@@ -96,7 +96,6 @@ h1 {
   .about-grid {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 1fr;
-    height: 100%;
   }
   .about-text {
     text-align: left;
@@ -201,7 +200,6 @@ textarea {
 }
 
 .card-img-overlay {
-  font-size: 0.9em;
   opacity: 0;
 }
 .card-img-overlay:hover {
@@ -235,7 +233,6 @@ textarea {
 .card {
   padding: 1.5%;
   overflow: hidden;
-  margin: 1%;
 }
 .card-space {
   margin: 1%;
