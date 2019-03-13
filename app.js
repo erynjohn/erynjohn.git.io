@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 
-app.engine('handlebars', expresshbs());
+app.engine('handlebars', expresshbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
