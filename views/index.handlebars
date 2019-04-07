@@ -1,160 +1,176 @@
-    <!-- about -->
-    <div class="flip-box">
-        <div class="flip-box-inner">
-            <div class="flip-box-front">
-                <h1>ABOUT</h1>
-                <div class="about-grid">
-                    <div class="about-box-container">
-                    </div>
-
-                    <img class=" lazy about-img" src="/public/images/placeholderImage.png" data-src="/public/images/portfolio_image.jpg" data-srcset="/public/images/portfolio_image.jpg 2x" alt="Bio Image"
-                        title="Eryn Monestero" width="350px">
-                    <article class="about-text">
-                        <h2>What I Have To Offer</h2>
-                        Full Stack Developer with a Bachelor of Science in Computer Information Systems. Attended
-                        Southern Methodist University’s Full Stack Bootcamp to refine skills. Able to innovate through
-                        rapid prototyping and skilled in bring the front end and the back end together in a well
-                        organized mobile responsive application.
-                    </article>
-                   {{> footer}}
-                    <!-- skills -->
-                    <ul class="dev-tools-front">
-                        <li class="tool-title">Tools and Skills</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>UX/UI</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Version Control</li>
-                        <li>MongoDB</li>
-                    </ul>
-                    <ul class="dev-tools-back">
-                        <li class="tool-title">More Tools and Skills</li>
-                        <li>Ajax</li>
-                        <li>Express</li>
-                        <li>Node.js</li>
-                        <li>Firebase</li>
-                        <li>SQL</li>
-                        <li>Handlebars</li>
-                        <li>Testing and Optimizing</li>
-                    </ul>
+<!-- about -->
+<div class="flip-box">
+    <div class="flip-box-inner">
+        <div class="flip-box-front">
+            <h1>ABOUT</h1>
+            <div class="about-grid">
+                <div class="about-box-container">
                 </div>
 
+                <img class=" lazy about-img" src="/public/images/placeholderImage.png"
+                    data-src="/public/images/portfolio_image.jpg" data-srcset="/public/images/portfolio_image.jpg 2x"
+                    alt="Bio Image" title="Eryn Monestero" width="350px">
+                <article class="about-text">
+                    <h2>What I Have To Offer</h2>
+                    Full Stack Developer with a Bachelor of Science in Computer Information Systems. Attended
+                    Southern Methodist University’s Full Stack Bootcamp to refine skills. Able to innovate through
+                    rapid prototyping and skilled in bring the front end and the back end together in a well
+                    organized mobile responsive application.
+                </article>
+                {{> footer}}
+                <!-- skills -->
+                <ul class="dev-tools-front">
+                    <li class="tool-title">Tools and Skills</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>UX/UI</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Version Control</li>
+                    <li>MongoDB</li>
+                </ul>
+                <ul class="dev-tools-back">
+                    <li class="tool-title">More Tools and Skills</li>
+                    <li>Ajax</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>Firebase</li>
+                    <li>SQL</li>
+                    <li>Handlebars</li>
+                    <li>Testing and Optimizing</li>
+                </ul>
             </div>
-            <div class="flip-box-back">
-                <h1>PROJECTS</h1>
-                <!-- projects -->
-                <div class="project-container">
-                    <div class="card bg-dark text-white" style="width: 30rem;">
-                        <img class="lazy card-img" src="/public/images/placeholderImage.png" data-src="/public/images/projects/portfolio.JPG" data-srcset="/public/images/projects/portfolio.JPG 2x" alt="Card image">
-                        <div class="card-img-overlay">
-                            <div class="project-link-container">
-                                <h5 class="card-title"> Portfolio </h5>
-                            </div>
-                            <p class=" card-text">This is the portfolio project that you are viewing. I like to
-                                highlight this project because
-                                it was created with the idea of a SPA in mind using node as the backend. This app
-                                uses a color scheme that doesn't distract from the portfolio. It Is a fully
-                                responsive clean layout.</p>
-                            <p class="card-text">Tools Used: JavaScript, Node, express, HTML5, CSS3, and Hosted
-                                on Heroku</p>
-                            <p class="link-to-project"><a href="#">PROJECT</a></p>
-                        </div>
-                    </div>
-                    <div class="card-space"></div>
-                    <div class="card bg-dark text-white" style="width: 30rem;">
-                        <img class="lazy card-img" src="/public/images/placeholderImage.png" data-src="/public/images/projects/burger_display.png" data-srcset="/public/images/projects/burger_display.png 2x" alt="Card image" width="100%">
-                        <div class="card-img-overlay">
-                            <div class="project-link-container">
-                                <h5 class="card-title"> Da Burger Shop </h5>
-                            </div>
-                            <p class=" card-text">This project lets you create new burgers and add favorite burgers to your favorites list using MySQL to persist user entries over different sessions. Handlebars handle the template that the data is being fed into. This app is completely responsive and can easily be used on mobile devices. New features coming soon.</p>
-                            <p class="card-text">Tools Used: jQuery, Node, express, Handlebars, CSS3, MySQL, JawsDB, and Hosted on Heroku.</p>
-                            <p class="link-to-project"><a href="https://da-burger-shop.herokuapp.com/">Project</a></p>
-                            <p class="link-to-project"><a href="https://github.com/erynjohn/da-burger">Code</a></p>
-                        </div>
-                    </div>
-                    <div class="card-space"></div>
-                    <div class="card bg-dark text-white" style="width: 30rem;">
-                        <img class="lazy card-img" src="/public/images/placeholderImage.png" data-src="/public/images/projects/train-times.JPG" data-srcset="/public/images/projects/train-times.JPG 2x" alt="Card image">
-                        <div class="card-img-overlay">
-                            <div class="project-link-container">
-                                <h5 class="card-title">Train Schedule 2.0</h5>
-                            </div>
-                            <p class=" card-text">This project is a scheduling system that takes the train name,
-                                destination, and frequency. It
-                                then populates a dynamically created table with the updated train name,
-                                destination, and time remaining until the next train arrives. </p>
-                            <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Moment.js</p>
-                            <p class="link-to-project"><a href="https://erynjohn.github.io/train-times">PROJECT</a></p>
-                            <p class="link-to-project"><a href="https://github.com/erynjohn/train-times">CODE</a></p>
-                        </div>
-                    </div>
-                    <div class="card-space"></div>
-                    <div class="card bg-dark text-white" style="width: 30rem;">
-                        <img class="lazy card-img" src="/public/images/placeholderImage.png" data-src="/public/images/projects/destinair.jpg" data-srcset="/public/images/projects/destinair.jpg 2x" alt="Card image">
-                        <div class="card-img-overlay">
-                            <div class="project-link-container">
-                                <h5 class="card-title">Destin-Air</h5>
-                            </div>
-                            <p class=" card-text">This project is a collaborative effort working as part of a team. My
-                                portion of the project
-                                is the main page that displays dynamically created pollution index cards
-                                along with the current weather for the target city and collaborated with
-                                team members to implement the login logic allowing for improved data of
-                                current site usage. Overall this app is designed for people with respiratory
-                                problems that would like to travel.</p>
-                            <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Firebase, and Ajax</p>
-                            <p class="link-to-project"><a href="https://erynjohn.github.io/Destn-Air">PROJECT</a></p>
-                            <p class="link-to-project"><a href="https://github.com/erynjohn/Destn-Air">CODE</a></p>
-                        </div>
-                    </div>
 
-                        <div class="card-space"></div>
-                    <div class="card bg-dark text-white" style="width: 30rem;">
-                        <img class="lazy card-img" src="/public/images/placeholderImage.png" data-src="/public/images/projects/bamazon.JPG" data-srcset="/public/images/projects/bamazon.JPG 2x" alt="Card image">
-                        <div class="card-img-overlay">
-                            <div class="project-link-container">
-                                <h5 class="card-title">Bamazon For Everyone</h5>
-                            </div>
-                            <p class=" card-text">This project uses the CLI and Node to query a MySQL database. Inquirer was used to providing prompts for the user to purchase items from the database and have the table reflect the results. CLI-Table makes results look a little more user-friendly</p>
-                            <p class="card-text">Tools Used: Node.js, MySQL, Inquirer, CLI-Table</p>
-                            <p class="link-to-project"><a href="https://github.com/erynjohn/bamazon">CODE</a></p>
+        </div>
+        <div class="flip-box-back">
+            <h1>PROJECTS</h1>
+            <!-- projects -->
+            <div class="project-container">
+                <div class="card bg-dark text-white" style="width: 30rem;">
+                    <img class="lazy card-img" src="/public/images/placeholderImage.png"
+                        data-src="/public/images/projects/portfolio.JPG"
+                        data-srcset="/public/images/projects/portfolio.JPG 2x" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="project-link-container">
+                            <h5 class="card-title"> Portfolio </h5>
                         </div>
+                        <p class=" card-text">This is the portfolio project that you are viewing. I like to
+                            highlight this project because
+                            it was created with the idea of a SPA in mind using node as the backend. This app
+                            uses a color scheme that doesn't distract from the portfolio. It Is a fully
+                            responsive clean layout.</p>
+                        <p class="card-text">Tools Used: JavaScript, Node, express, HTML5, CSS3, and Hosted
+                            on Heroku</p>
+                        <p class="link-to-project" rel="noreferrer"><a href="#">PROJECT</a></p>
                     </div>
                 </div>
+                <div class="card-space"></div>
+                <div class="card bg-dark text-white" style="width: 30rem;">
+                    <img class="lazy card-img" src="/public/images/placeholderImage.png"
+                        data-src="/public/images/projects/burger_display.png"
+                        data-srcset="/public/images/projects/burger_display.png 2x" alt="Card image" width="100%">
+                    <div class="card-img-overlay">
+                        <div class="project-link-container">
+                            <h5 class="card-title"> Da Burger Shop </h5>
+                        </div>
+                        <p class=" card-text">This project lets you create new burgers and add favorite burgers to your
+                            favorites list using MySQL to persist user entries over different sessions. Handlebars
+                            handle the template that the data is being fed into. This app is completely responsive and
+                            can easily be used on mobile devices. New features coming soon.</p>
+                        <p class="card-text">Tools Used: jQuery, Node, express, Handlebars, CSS3, MySQL, JawsDB, and
+                            Hosted on Heroku.</p>
+                        <p class="link-to-project"><a href="https://da-burger-shop.herokuapp.com/" rel="noreferrer">Project</a></p>
+                        <p class="link-to-project"><a href="https://github.com/erynjohn/da-burger" rel="noreferrer">Code</a></p>
+                    </div>
+                </div>
+                <div class="card-space"></div>
+                <div class="card bg-dark text-white" style="width: 30rem;">
+                    <img class="lazy card-img" src="/public/images/placeholderImage.png"
+                        data-src="/public/images/projects/train-times.JPG"
+                        data-srcset="/public/images/projects/train-times.JPG 2x" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="project-link-container">
+                            <h5 class="card-title">Train Schedule 2.0</h5>
+                        </div>
+                        <p class=" card-text">This project is a scheduling system that takes the train name,
+                            destination, and frequency. It
+                            then populates a dynamically created table with the updated train name,
+                            destination, and time remaining until the next train arrives. </p>
+                        <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Moment.js</p>
+                        <p class="link-to-project"><a href="https://erynjohn.github.io/train-times" rel="noreferrer">PROJECT</a></p>
+                        <p class="link-to-project"><a href="https://github.com/erynjohn/train-times" rel="noreferrer">CODE</a></p>
+                    </div>
+                </div>
+                <div class="card-space"></div>
+                <div class="card bg-dark text-white" style="width: 30rem;">
+                    <img class="lazy card-img" src="/public/images/placeholderImage.png"
+                        data-src="/public/images/projects/destinair.jpg"
+                        data-srcset="/public/images/projects/destinair.jpg 2x" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="project-link-container">
+                            <h5 class="card-title">Destin-Air</h5>
+                        </div>
+                        <p class=" card-text">This project is a collaborative effort working as part of a team. My
+                            portion of the project
+                            is the main page that displays dynamically created pollution index cards
+                            along with the current weather for the target city and collaborated with
+                            team members to implement the login logic allowing for improved data of
+                            current site usage. Overall this app is designed for people with respiratory
+                            problems that would like to travel.</p>
+                        <p class="card-text">Tools Used: jQuery, HTML5, CSS3, Firebase, and Ajax</p>
+                        <p class="link-to-project"><a href="https://erynjohn.github.io/Destn-Air" rel="noreferrer">PROJECT</a></p>
+                        <p class="link-to-project"><a href="https://github.com/erynjohn/Destn-Air" rel="noreferrer">CODE</a></p>
+                    </div>
+                </div>
+
+                <div class="card-space"></div>
+                <div class="card bg-dark text-white" style="width: 30rem;">
+                    <img class="lazy card-img" src="/public/images/placeholderImage.png"
+                        data-src="/public/images/projects/bamazon.JPG"
+                        data-srcset="/public/images/projects/bamazon.JPG 2x" alt="Card image">
+                    <div class="card-img-overlay">
+                        <div class="project-link-container">
+                            <h5 class="card-title">Bamazon For Everyone</h5>
+                        </div>
+                        <p class=" card-text">This project uses the CLI and Node to query a MySQL database. Inquirer was
+                            used to providing prompts for the user to purchase items from the database and have the
+                            table reflect the results. CLI-Table makes results look a little more user-friendly</p>
+                        <p class="card-text">Tools Used: Node.js, MySQL, Inquirer, CLI-Table</p>
+                        <p class="link-to-project"><a href="https://github.com/erynjohn/bamazon" rel="noreferrer">CODE</a></p>
+                    </div>
+                </div>
+            </div>
             {{> footer}}
-            </div>
-            <div class="flip-box-back-X">
-                <h1>CONTACT</h1>
-                <!-- contact -->
-                <div class="contact-container">
-                    <form method="POST" action="send">
-                        <div class="form-group">
-                            <label for="name">NAME</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name"
-                                placeholder="JOHN SMITH" name="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="name">EMAIL ADDRESS</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email"
-                                placeholder="johnsmith@gmail.com" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="company">COMPANY</label>
-                            <input type="text" class="form-control" id="company" placeholder="XYZ COMPANY"
-                                name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1" m>MESSAGE</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="ENTER MESSAGE HERE..."
-                                name="message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-outline-warning btn-block btn-dark">Send</button>
+        </div>
+        <div class="flip-box-back-X">
+            <h1>CONTACT</h1>
+            <!-- contact -->
+            <div class="contact-container">
+                <form method="POST" action="send">
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name"
+                            placeholder="JOHN SMITH" name="name" aria-label="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">EMAIL ADDRESS</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email"
+                            placeholder="johnsmith@gmail.com" name="email" aria-label="Enter email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">COMPANY</label>
+                        <input type="text" class="form-control" id="company" placeholder="XYZ COMPANY" name="company"
+                            aria-label="Enter company name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" m>MESSAGE</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="ENTER MESSAGE HERE..."
+                            name="message" aria-label="Enter message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning btn-block btn-dark">Send</button>
 
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
-        {{> footer}}
     </div>
+</div>

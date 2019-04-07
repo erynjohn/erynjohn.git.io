@@ -259,11 +259,14 @@ textarea {
   font-size: 0.9em;
 }
 @media only screen and (max-width: 520px) {
+  .contact-icon ul {
+    margin-top: -20px;
+  }
   .contact-icon a {
-    font-size: 0.5em;
+    font-size: 0.9em;
   }
 .card-text {
-  font-size: 0.7em;
+  font-size: 1em;
 }
   
 .about-text {
