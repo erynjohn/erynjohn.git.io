@@ -109,6 +109,9 @@ h1 {
     grid-row-end: 2;
     margin-top: 5%;
   }
+  .card-text {
+    font-size: 1.3em;
+  }
 ul {
   list-style: none;
   font-size: 1.5em;
