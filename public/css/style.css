@@ -224,7 +224,7 @@ textarea {
   text-decoration: none;
 }
 .project-container {
-  background-color: #eeeeee; 
+  background-color: #fffdfd; 
   display: flex;
   flex-wrap: wrap;
   margin: 0 0.5%;
@@ -257,6 +257,7 @@ textarea {
 }
 .card {
   font-size: 0.9em;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 520px) {
   .contact-icon ul {
