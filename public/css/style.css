@@ -13,6 +13,7 @@ h1 {
   letter-spacing: 1px;
 }
 .navbar {
+  z-index: 1;
   opacity: 0.8;
 }
 .navbar-brand {
