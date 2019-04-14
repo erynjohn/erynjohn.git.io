@@ -170,11 +170,12 @@ textarea {
 .contact-icon a {
   color: #3d3d3d;
 }
-.contact-icon a:hover, .con
- {
+.contact-icon a:hover {
+  cursor: pointer;
   color: #ff9010;
 }
 .navbar a:hover {
+  cursor: pointer;
   color: #ff9010;
 }
 .foot {
@@ -211,6 +212,7 @@ textarea {
   opacity: 0;
 }
 .card-img-overlay:hover {
+  cursor: pointer;
   opacity: 1;
   background-color: #000000cc;
   animation: bounce 1s;
@@ -218,16 +220,20 @@ textarea {
   -moz-animation: bounce 1s;
 }
 .card img:hover {
+  cursor: pointer;
   filter: blur(2px);
 }
 .contact-icon a:hover {
+  cursor: pointer;
   text-decoration: none;
 }
 .message-sent-btn:hover {
+  cursor: pointer;
   background-color: #ff9010;
 
 }
 .link-to-project a:hover { 
+  cursor: pointer;
   color: #ff9010;
   text-decoration: none;
 }
