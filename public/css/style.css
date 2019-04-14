@@ -170,10 +170,11 @@ textarea {
 .contact-icon a {
   color: #3d3d3d;
 }
-.contact-icon a:hover, .contact-icon:active {
+.contact-icon a:hover, .con
+ {
   color: #ff9010;
 }
-.navbar a:hover, .navbar:active {
+.navbar a:hover {
   color: #ff9010;
 }
 .foot {
@@ -209,22 +210,23 @@ textarea {
   font-size: 0.9em;
   opacity: 0;
 }
-.card-img-overlay:hover, .card-img-overlay:active {
+.card-img-overlay:hover {
   opacity: 1;
   background-color: #000000cc;
   animation: bounce 1s;
+  -webkit-animation: bounce 1s;
 }
-.card img:hover, .card-img:active {
+.card img:hover {
   filter: blur(2px);
 }
-.contact-icon a:hover, .contact-icon:active {
+.contact-icon a:hover {
   text-decoration: none;
 }
-.message-sent-btn:hover, .message-sent-btn:active {
+.message-sent-btn:hover {
   background-color: #ff9010;
 
 }
-.link-to-project a:hover, .link-to-project:active { 
+.link-to-project a:hover { 
   color: #ff9010;
   text-decoration: none;
 }
