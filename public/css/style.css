@@ -12,9 +12,6 @@ body {
 h1 {
   letter-spacing: 1px;
 }
-.lazy {
-  -webkit-backface-visibility: hidden;
-}
 .navbar {
   z-index: 2;
   opacity: 0.8;
