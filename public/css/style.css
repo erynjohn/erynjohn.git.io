@@ -16,6 +16,7 @@ h1 {
   -webkit-backface-visibility: hidden;
 }
 .navbar {
+  z-index: 2;
   opacity: 0.8;
 }
 .navbar-brand {
