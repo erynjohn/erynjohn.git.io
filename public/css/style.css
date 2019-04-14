@@ -215,6 +215,7 @@ textarea {
   background-color: #000000cc;
   animation: bounce 1s;
   -webkit-animation: bounce 1s;
+  -moz-animation: bounce 1s;
 }
 .card img:hover {
   filter: blur(2px);
@@ -288,17 +289,20 @@ textarea {
 }
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
 	}
 
 	40% {
-		-webkit-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
 		transform: translateY(10px);
 	}
 
 	80% {
-		-webkit-transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
 		transform: translateY(5px);
 	}
 }
